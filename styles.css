@@ -1,0 +1,23 @@
+body {
+    background-color: #F4F4F4;
+    color: #1B1A26;
+    /*font-family: 'Big Shoulders Text', cursive;*/
+}
+
+#footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 120px;
+   background-color: #BFA099;
+   text-align: center;
+}
+
+
+/* Color Theme Swatches in Hex
+.museum-1-hex { color: #1B1A26; } Black
+.museum-2-hex { color: #B4B9D9; } Light light blue
+.museum-3-hex { color: #F2F2F2; } offwhite
+.museum-4-hex { color: #8C817D; } gray-brown
+.museum-5-hex { color: #BFA099; } pink-brown
+*/
