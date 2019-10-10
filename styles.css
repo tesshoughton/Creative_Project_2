@@ -13,11 +13,10 @@ h1 {
 
 body {
     background-color: #F4F4F4;
-    /*font-family: 'Big Shoulders Text', cursive;*/
 }
 
 footer {
-   position: absolute;
+   /*position: absolute;*/
    bottom: 0;
    width: 100%;
    height: 120px;
@@ -36,10 +35,6 @@ footer {
 
 .odds {
     background-color: #FEFEFE;
-}
-
-.evens {
-    text-align: center;
 }
 
 
