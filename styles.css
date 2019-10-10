@@ -1,16 +1,45 @@
+html {
+    color: #1B1A26;
+    width: 100%;
+}
+
+h1 {
+    text-align: right;
+    /*margin: 40px;*/
+    padding: 30px;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #B4B9D9;
+}
+
 body {
     background-color: #F4F4F4;
-    color: #1B1A26;
     /*font-family: 'Big Shoulders Text', cursive;*/
 }
 
-#footer {
+footer {
    position: absolute;
    bottom: 0;
    width: 100%;
    height: 120px;
    background-color: #BFA099;
    text-align: center;
+}
+
+#table_head {
+    background-color: #8C817D;
+}
+
+#my_table {
+    text-align: center;
+    width: 100%;
+}
+
+.odds {
+    background-color: #FEFEFE;
+}
+
+.evens {
+    text-align: center;
 }
 
 
