@@ -22,16 +22,18 @@ document.getElementById("searchSubmit").addEventListener("click", function(event
           } else {
             results += '<tr class="odds">';
           }
-          results += '<th scope="row">' + json.artObjects[i].title + '</th>';
+          results += '<th scope="row">' + '<a href="https://www.rijksmuseum.nl/nl/zoeken/objecten?q=' + json.artObjects[i].title + '">' + json.artObjects[i].title + '</th>';
           if (json.artObjects[i].hasImage === false) {
             results += "<td>No image available</td>";
           } else {
-            results += '<td><img src="' + json.artObjects[i].webImage.url.replace("s0", "s256") + '"/></td>';
+            results += '<td><a href="' + json.artObjects[i].webImage.url.replace("s0", "s256") + '"><img src="' + json.artObjects[i].webImage.url.replace("s0", "s256") + '"/></a></td>';
           }
-          results += '<td>' + json.artObjects[i].principalOrFirstMaker + '</td></tr>';
+          results += '<td><a href="https://www.rijksmuseum.nl/nl/zoeken/objecten?q=' + json.artObjects[i].principalOrFirstMaker + '">' + json.artObjects[i].principalOrFirstMaker + '</td></tr>';
         }
         results += "</table>"
       }
       document.getElementById("searchResults").innerHTML = results;
   });
 });
+
+// https://www.rijksmuseum.nl/nl/nu-in-het-museum  This is the link to the museum main page if we want pictures to go there instead.
