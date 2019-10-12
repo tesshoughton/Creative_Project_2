@@ -29,6 +29,11 @@ footer {
 
 }
 
+footer a:link {
+    text-decoration: none;
+    color: darkblue;
+}
+
 #table_head {
     background-color: #8C817D;
 }
@@ -40,6 +45,19 @@ footer {
 
 .odds {
     background-color: #FEFEFE;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: black;
 }
 
 
